@@ -1,0 +1,138 @@
+﻿body {
+	background-color: #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-image: url('bgp4.jpg');
+	background-repeat: repeat;
+}
+a {
+	text-decoration: none;
+	color: #E69C31;
+}
+a:hover{
+	background-color: #E69C31;
+	color: #083248;
+	font-weight: bold;
+	font-size: 16px;
+}
+a.hoverable:hover{
+	background-color: #FFFFFF
+}
+#container {
+	border: 1px solid #351A1E;
+	background-color: #FFFFFF;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	height: 150px; 
+	font-size: 40px;
+	padding-top: 90px;
+	padding-left: 48px;
+	background-image: url('apu.jpg');
+	background-repeat: no-repeat;
+	color: #E69C31;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#nav {
+	padding: 9px;
+	background-color: #083248;
+	font-size: 13px;
+	color: #E69C31;
+	text-align: center;
+	text-transform: uppercase;
+}
+#content-area {
+	padding: 24px;
+	
+}
+#page-title {
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#page-content {
+	text-align: justify;
+	padding: 16px;
+	font-size: 18px;
+	line-height: 1.6;
+}
+#footer {
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: black;
+	height: 40px;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 8px;
+	background-color: #083248;
+	color: #E69C31;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #083248;
+  color: #E69C31;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #E69C31;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #E69C31;
+  color:#083248;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #083248;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+  color: #E69C31;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #E69C31;
+	color: #083248;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.row {
+  display: flex;
+}
+
+
+.column {
+  padding: 5px;
+}

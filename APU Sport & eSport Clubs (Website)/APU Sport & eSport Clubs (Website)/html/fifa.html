@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>FIFA Club</title>
+<link href="master.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+</head>
+
+<body>
+<div id="container">
+
+	<div id="header">
+	APU Sport &amp; ESport Clubs
+	</div>
+	
+	<div id="nav">
+		<ul>
+			<li class="dropdown">
+    			<a href="default.html" class="dropbtn"><i class="fa fa-home"></i> Home</a>
+    			<div class="dropdown-content">
+			      	<a href="desc-sport.html">Sport</a>
+			      	<a href="desc-esport.html">eSport</a>
+    			</div>
+  			</li>			
+
+  			<li class="dropdown">
+    			<a class="dropbtn"><i class="fa fa-futbol-o"></i> Sport</a>
+    			<div class="dropdown-content">
+      				<a href="football.html">Football</a>
+			      	<a href="basketball.html">Basketball</a>
+			      	<a href="swimming.html">Swimming</a>
+			      	<a href="taekwondo.html">Taekwondo</a>
+			      	<a href="volleyball.html">Volleyball</a>
+    			</div>
+  			</li>
+
+  			<li class="dropdown">
+    			<a class="dropbtn"><i class="fa fa-gamepad"></i> eSport</a>
+    			<div class="dropdown-content">
+      				<a href="warcraft.html">World of Warcraft</a>
+			      	<a href="valorant.html">Valorant</a>
+			      	<a href="pubg.html">PUBG Mobile</a>
+			      	<a href="legends.html">Mobile Legends</a>
+			      	<a href="fifa.html">FIFA</a>
+    			</div>
+  			</li>
+  						
+			<li><a class="active" href="form.html"><i class="fa fa-file-text"></i> Form </a></li>
+			<li><a class="active" href="news.html"><i class="fa fa-newspaper-o"></i> News </a></li>	
+			<li><a class="active" href="events.html"><i class="fa fa-bell-o"></i> Events </a></li>
+
+			<li class="dropdown">
+    			<a class="dropbtn"><i class="fa fa-university"></i> Facilities</a>
+    			<div class="dropdown-content">
+      				<a href="sportfacil.html">Sport</a>
+			      	<a href="esportfacil.html">eSport</a>
+    			</div>
+  			</li>
+  			
+			<li><a class="active" href="aboutus.html"><i class="fa fa-info"></i>  About Us </a></li>
+			<li><a class="active" href="contactus.html"><i class="fa fa-envelope-o"></i> Contact Us </a></li>
+		</ul>
+	</div>
+	
+	<div id="content-area">
+	
+		<div id="page-title">
+		FIFA Club
+		</div>
+		
+		<br/>
+		<div id="page-content">
+		<p style="text-align:center"><iframe width="100%" height="400" src="https://www.youtube.com/embed/xTpr7piQu2M" frameborder="0"></iframe><br/></p>
+		Welcome to FIFA club, in our club we are playing FIFA on consoles. Also, we organize two types of tournaments every weekend. 
+		There are different prizes for winners. Do not lose your chance to win prizes and show your skills in playing FIFA. 
+		Here you can find a lot of interesting players to play with and teammates.<br/><br/>
+		<b>First is a single-player tournament:<br/></b>
+			&emsp;&diams; Draw for players<br/>
+			&emsp;&diams; 10 min game<br/>
+			&emsp;&diams; Fee 5 RM for each tournament<br/>
+			&emsp;&diams; Avenue: APU 3rd level<br/>
+			&emsp;&diams; Saturday from 3 pm to 6 pm<br/>
+			&emsp;&diams; Strictly only for members<br/><br/>
+		<b>Second is the duo-player tournament:<br/></b>
+			&emsp;&diams; Draw for teams<br/>
+			&emsp;&diams; 12 min game<br/>
+			&emsp;&diams; Fee 5 RM for each tournament(each player)<br/>
+			&emsp;&diams; Avenue: APU 3rd level<br/>
+			&emsp;&diams; Sunday from 2 pm to 6 pm<br/>
+			&emsp;&diams; For members and non-members<br/><br/>
+		Also, we try to improve APU students' communication skills and help them in daily studies with sharing experiences.
+		
+		<div >
+		  <img alt="" class="mySlides" src="fifa1.jpg" style="width:100%" />
+		  <img alt="" class="mySlides" src="fifa2.jpg" style="width:100%" />
+		  <img alt="" class="mySlides" src="fifa3.jpg" style="width:100%" />
+		  <img alt="" class="mySlides" src="fifa4.jpg" style="width:100%" />
+		  <img alt="" class="mySlides" src="fifa5.jpg" style="width:100%" />
+		</div>
+
+		<script type="text/javascript">
+			var myIndex = 0;
+			carousel();
+			
+			function carousel() {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  for (i = 0; i < x.length; i++) {
+			    x[i].style.display = "none";  
+			  }
+			  myIndex++;
+			  if (myIndex > x.length) {myIndex = 1}    
+			  x[myIndex-1].style.display = "block";  
+			  setTimeout(carousel, 3000);
+			}
+		</script>
+	</div>
+	</div>
+	<div id="footer">
+	Created by Melikov Savlatjon, 2020<br/>
+	FDD-1911
+	</div>
+</div>
+
+</body>
+
+</html>

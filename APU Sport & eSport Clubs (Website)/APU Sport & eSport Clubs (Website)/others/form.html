@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Form Page</title>
+<link href="master.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+	APU Sport &amp; ESport Clubs
+	</div>
+	<div id="nav">
+		<ul>
+			<li class="dropdown">
+    			<a href="default.html" class="dropbtn"><i class="fa fa-home"></i> Home</a>
+    			<div class="dropdown-content">
+			      	<a href="desc-sport.html">Sport</a>
+			      	<a href="desc-esport.html">eSport</a>
+    			</div>
+  			</li>			
+  			<li class="dropdown">
+    			<a class="dropbtn"><i class="fa fa-futbol-o"></i> Sport</a>
+    			<div class="dropdown-content">
+      				<a href="football.html">Football</a>
+			      	<a href="basketball.html">Basketball</a>
+			      	<a href="swimming.html">Swimming</a>
+			      	<a href="taekwondo.html">Taekwondo</a>
+			      	<a href="volleyball.html">Volleyball</a>
+    			</div>
+  			</li>
+  			<li class="dropdown">
+    			<a class="dropbtn"><i class="fa fa-gamepad"></i> eSport</a>
+    			<div class="dropdown-content">
+      				<a href="warcraft.html">World of Warcraft</a>
+			      	<a href="valorant.html">Valorant</a>
+			      	<a href="pubg.html">PUBG Mobile</a>
+			      	<a href="legends.html">Mobile Legends</a>
+			      	<a href="fifa.html">FIFA</a>
+    			</div>
+  			</li>			
+			<li><a class="active" href="form.html"><i class="fa fa-file-text"></i> Form </a></li>
+			<li><a class="active" href="news.html"><i class="fa fa-newspaper-o"></i> News </a></li>	
+			<li><a class="active" href="events.html"><i class="fa fa-bell-o"></i> Events </a></li>
+			<li class="dropdown">
+    			<a class="dropbtn"><i class="fa fa-university"></i> Facilities</a>
+    			<div class="dropdown-content">
+      				<a href="sportfacil.html">Sport</a>
+			      	<a href="esportfacil.html">eSport</a>
+    			</div>
+  			</li>
+			<li><a class="active" href="aboutus.html"><i class="fa fa-info"></i>  About Us </a></li>
+			<li><a class="active" href="contuctus.html"><i class="fa fa-envelope-o"></i> Contuct Us </a></li>
+		</ul>
+	</div>
+	<div id="content-area">
+		<div id="page-title">
+		<p style="text-align:center;">APU SPORTS AND ESPORTS CLUBS SYSTEM FORM</p>
+		</div>
+		<br/>
+		<div id="page-content">
+		hello!!
+		<br/><br/>
+		We kindly ask for your assistance to fill up this form. Your effort and honesty is much appreciated because it will help us develop and ensure the system meets our users needs.	
+		<br/><br/>
+		<form name="form1" method="get" action="default.html">
+			<table border="0" style="width: 700px; border: solid 2px black; padding: 16px">
+				<tr>
+					<td style="width: 355px">Date</td>
+					<td style="width: 185px">:</td>
+					<td><input type="date" id="today" name="today" /></td>
+				</tr>
+				<tr>
+					<td style="width: 355px">APU Society Member</td>
+					<td style="width: 185px">:</td>
+					<td><input type="radio" name="member1" value="Y" />Yes
+					<input type="radio"	name="member1" value="N" />No</td>
+				</tr>
+				<tr>
+					<td style="width: 355px">Gender</td>
+					<td style="width: 185px">:</td>
+					<td><input type="radio" name="gender1" value="M" />Male
+					<input type="radio"	name="gender1" value="F" />Female
+					<input type="radio"	name="gender1" value="U" />Unknown</td>
+				</tr>
+				<tr>
+					<td style="width: 355px">Program</td>
+					<td style="width: 185px">:</td>
+					<td><input type="radio" name="program1" value="C" />Certificate
+					<input type="radio" name="program1" value="D" />Diploma
+					<input type="radio" name="program1" value="B" checked="checked" />Bachelor Degree</td>
+				</tr>
+				<tr>
+					<td style="width: 355px">Nationality</td>
+					<td style="width: 185px">:</td>
+					<td><select name="nationality1">
+							<option value="MY">malaysian</option>
+							<option value="NMY">non-malaysian</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td style="width: 355px">Language(s) spoken</td>
+					<td style="width: 185px">:</td>
+					<td><input type="checkbox" name="lang1" value="BM" />Bahasa Malaysia
+					<input type="checkbox" name="lang2" value="EN" checked="checked" />English
+					<input type="checkbox" name="lang3" value="O" />Others</td>
+				</tr>
+				<tr>
+					<td style="width: 355px">Is this your first time to visit the website?</td>
+					<td style="width: 185px">:</td>
+					<td><input type="radio" name="visit1" value="Y" />Yes
+					<input type="radio"	name="visit1" value="N" />No</td>
+				</tr>
+				<tr>
+					<td style="width: 355px">Reason of visiting our website</td>
+					<td style="width: 185px">:</td>
+					<td><input type="text" name="reason1" size="60" maxlength="60" /></td>
+				</tr>		
+				<tr>
+					<td style="vertical-align: top; width: 355px; height: 85px;">What should we improve </td>
+					<td style="vertical-align: top; width: 185px; height: 85px;">:</td>
+					<td style="height: 85px"><textarea name="comments3" rows="5" cols="40" onfocus="this.value=''">Type here...
+					</textarea></td>
+				</tr>
+				<tr>
+					<td style="width: 355px">Rate Us</td>
+					<td style="width: 185px">:</td>
+					<td><input type="radio" name="rate1" value="C" />1
+					<input type="radio" name="rate1" value="D" />2
+					<input type="radio" name="rate1" value="C" />3
+					<input type="radio" name="rate1" value="C" />4
+					<input type="radio" name="rate1" value="B" checked="checked" />5</td>
+				</tr>
+				<tr>
+					<td style="width: 355px">&nbsp;</td>
+					<td style="width: 185px">&nbsp;</td>
+					<td><input type="submit" /><input type="reset" /></td>
+				</tr>
+			</table>
+		</form>
+		</div>
+	</div>
+	<div id="footer">
+	Created by McFidel Wanna, 2020<br/>
+	FDD-1911
+	</div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>eSport Clubs Description</title>
+<link href="master.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link href="desc-esport.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div id="container">
+	<div id="header"style="height: 240px">
+	APU Sport &amp; ESport Clubs
+	</div>
+	<div id="nav">
+		<ul>
+			<li class="dropdown">
+    			<a href="default.html" class="dropbtn"><i class="fa fa-home"></i> Home</a>
+    			<div class="dropdown-content">
+			      	<a href="desc-sport.html">Sport</a>
+			      	<a href="desc-esport.html">eSport</a>
+    			</div>
+  			</li>			
+  			<li class="dropdown">
+    			<a class="dropbtn"><i class="fa fa-futbol-o"></i> Sport</a>
+    			<div class="dropdown-content">
+      				<a href="football.html">Football</a>
+			      	<a href="basketball.html">Basketball</a>
+			      	<a href="swimming.html">Swimming</a>
+			      	<a href="taekwondo.html">Taekwondo</a>
+			      	<a href="volleyball.html">Volleyball</a>
+    			</div>
+  			</li>
+  			<li class="dropdown">
+    			<a class="dropbtn"><i class="fa fa-gamepad"></i> eSport</a>
+    			<div class="dropdown-content">
+      				<a href="warcraft.html">World of Warcraft</a>
+			      	<a href="valorant.html">Valorant</a>
+			      	<a href="pubg.html">PUBG Mobile</a>
+			      	<a href="legends.html">Mobile Legends</a>
+			      	<a href="fifa.html">FIFA</a>
+    			</div>
+  			</li>			
+			<li><a class="active" href="form.html"><i class="fa fa-file-text"></i> Form </a></li>
+			<li><a class="active" href="news.html"><i class="fa fa-newspaper-o"></i> News </a></li>	
+			<li><a class="active" href="events.html"><i class="fa fa-bell-o"></i> Events </a></li>
+			<li class="dropdown">
+    			<a class="dropbtn"><i class="fa fa-university"></i> Facilities</a>
+    			<div class="dropdown-content">
+      				<a href="sportfacil.html">Sport</a>
+			      	<a href="esportfacil.html">eSport</a>
+    			</div>
+  			</li>
+			<li><a class="active" href="aboutus.html"><i class="fa fa-info"></i>  About Us </a></li>
+			<li><a class="active" href="contactus.html"><i class="fa fa-envelope-o"></i> Contact Us </a></li>
+		</ul>
+	</div>
+	<div id="content-area">
+		<div id="page-title">
+		E-Sport at APU 
+		</div>
+		<br/>
+		
+	<div class="slideshow-container">
+
+	  <div class="mySlides fade">
+	    <div class="numbertext">1 / 5</div>
+	    <img alt="" src="g1.jpg" style="width:100%" />
+	    <div class="text">World Of Warcraft</div>
+	  </div>
+	
+	  <div class="mySlides fade">
+	    <div class="numbertext">2 / 5</div>
+	    <img alt="" src="g2.jpg" style="width:100%" />
+	    <div class="text">Valorant</div>
+	  </div>
+	
+	  <div class="mySlides fade">
+	    <div class="numbertext">3 / 5</div>
+	    <img alt="" src="g3.jpg" style="width:100%" />
+	    <div class="text">PUBG MOBILE</div>
+	  </div>
+	  
+	  <div class="mySlides fade">
+	    <div class="numbertext">4 / 5</div>
+	    <img alt="" src="g4.png" style="width:100%" />
+	    <div class="text">Mobile LEGENDS</div>
+	  </div>
+	  
+	  <div class="mySlides fade">
+	    <div class="numbertext">5 / 5</div>
+	    <img alt="" src="g5.png" style="width:100%" />
+	    <div class="text">FIFA</div>
+	  </div>
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	</div>
+	<script type="text/javascript">
+		var slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+		      dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+	</script>
+
+		
+	<div id="page-content">
+		At APU we care to those people intrest to the electronic sports such as multiplayer online battle arena (MOBA), first-person shooter (FPS), fighting, card games, battle royales, and real-time strategy (RTS).
+		Curently we have 5 E-Sport club World Of Warcraft, Valorant, PUBG Mobile, MOBILE LEGENDES and FIFA. For us it is very important to provide unique exprince in our E-Sports Club. For Joining please fill the <a href="form.html">Form</a>  or <a href="contactus.html">Contact Us</a>.
+	</div>
+	<center>
+		<h2> We play every where every time</h2>
+		<iframe src="phong.htm" style="width: 450px; height: 355px"></iframe>
+	</center>
+	
+	</div>
+	<div id="footer">
+	Created by HASSAN HASSANZADEHALIABDI, 2020<br/>
+	FDD-1911
+	</div>
+</div>
+
+
+</body>
+
+</html>

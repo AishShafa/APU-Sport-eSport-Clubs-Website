@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>PUBG Mobile Club</title>
+<link href="master.css" rel="stylesheet" type="text/css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+
+<body onload="doWave(0)">
+
+<div id="container">
+
+	<div id="header">
+	APU Sport &amp; ESport Clubs
+	</div>
+	
+	<div id="nav">
+		<ul>
+			<li class="dropdown">
+    			<a class="dropbtn" href="default.html"><i class="fa fa-home"></i> Home</a>
+    			<div class="dropdown-content">
+			      	<a href="desc-sport.html">Sport</a>
+			      	<a href="desc-esport.html">eSport</a>
+    			</div>		
+  			</li>
+  			
+  			<li class="dropdown">
+    			<a class="dropbtn"><i class="fa fa-futbol-o"></i> Sport</a>
+    			<div class="dropdown-content">
+      				<a href="football.html">Football</a>
+			      	<a href="basketball.html">Basketball</a>
+			      	<a href="swimming.html">Swimming</a>
+			      	<a href="taekwondo.html">Taekwondo</a>
+			      	<a href="volleyball.html">Volleyball</a>
+    			</div>
+  			</li>
+  			
+  			<li class="dropdown">
+    			<a class="dropbtn"><i class="fa fa-gamepad"></i> eSport</a>
+    			<div class="dropdown-content">
+      				<a href="warcraft.html">World of Warcraft</a>
+			      	<a href="valorant.html">Valorant</a>
+			      	<a href="pubg.html">PUBG Mobile</a>
+			      	<a href="legends.html">Mobile Legends</a>
+			      	<a href="fifa.html">FIFA</a>
+    			</div>
+  			</li>
+  						
+			<li><a class="active" href="form.html"><i class="fa fa-file-text"></i> Form </a></li>
+			<li><a class="active" href="news.html"><i class="fa fa-newspaper-o"></i> News </a></li>	
+			<li><a class="active" href="events.html"><i class="fa fa-bell-o"></i> Events </a></li>
+			
+			<li class="dropdown">
+    			<a class="dropbtn"><i class="fa fa-university"></i> Facilities</a>
+    			<div class="dropdown-content">
+      				<a href="sportfacil.html">Sport</a>
+			      	<a href="esportfacil.html">eSport</a>
+    			</div>
+  			</li>
+  			
+			<li><a class="active" href="aboutus.html"><i class="fa fa-info"></i>  About Us </a></li>
+			<li><a class="active" href="contactus.html"><i class="fa fa-envelope-o"></i> Contact Us </a></li>
+		</ul>
+	</div>
+	
+	<div id="content-area">
+		<div id="page-title">
+			PUBG Mobile Club<br/><br/>
+		</div>
+		
+		<div id="page-content">
+			<script type="text/javascript">
+			
+			var theText = "Welcome to PUBG Mobile Club";
+			
+			function nextSize(i,incMethod,textLength)
+			{
+			if (incMethod == 1) return (72*Math.abs( Math.sin(i/(textLength/3.14))) );
+			if (incMethod == 2) return (255*Math.abs( Math.cos(i/(textLength/3.14))));
+			}
+			
+			function sizeCycle(text,method,dis)
+			{
+				output = "";
+				for (i = 0; i < text.length; i++)
+				{
+					size = parseInt(nextSize(i +dis,method,text.length));
+					output += "<font style='font-size: "+ size +"pt'>" +text.substring(i,i+1)+ "</font>";
+				}
+				theDiv.innerHTML = output;
+			}
+			
+			function doWave(n) 
+			{   
+				sizeCycle(theText,1,n);
+				if (n > theText.length) {n=0}
+				setTimeout("doWave(" + (n+1) + ")", 50);
+			}
+			</script>
+			
+			<div id="theDiv"  
+			style="background-color: #083248; 
+			border: solid 2px #083248; 
+			color: #E1AF22">
+			</div>
+			<br/><br/>
+			
+			<iframe width="900" height="500" src="https://www.youtube.com/embed/J8kqCQby0vg" frameborder="0"></iframe><br/><br/>
+			
+			<div style="border-top: 1px solid #ebebeb;">&nbsp;</div>
+			
+			<h3>MOTTO:</h3>
+			
+			<p style="text-align:center"><img alt="" src="pubg-logo.jpg" /><br/><br/></p>
+			
+			Welcome to our PUBG Mobile Club. You can join us and have fun together. We are making new friends here and exchanging our experiences. The subscription is free. Play Like a Champion and Die Like a Legend. Other clan carries dust. PUBG Mobile Club lasts forever. We are ready to give whatever it takes. One-shot, One kill. No luck only skills. Mess with the best, Die like the rest. Never Give Up when you are alone. Treat Every Bullet as Last! We quell the storm and ride the Thunder. We are Brothers, Rushgods, Clutchgods, Squad Wipers. Chicken Dinner is in Our DNA. Make us Angry And We’ll make a death certificate for you. It’s All About Unity and Coordination. Heroes are remembered But legends never die. Conqueror and KD is no barrier. It’s a limitation you put on your mind. Better to die than to be a Camper
+			Don’t Camp and Cry. Just Rush and Fly. Be Your Best Version. If you are bad. Then, we are your dad. My Device Can’t Handle my Skills. KD Doesn’t Matter, Skill Matter. Only Lag and Low FPS can control my skills. Skills are so fast. Even Lag can resist it. A device is just a Barrier you put in your mind. Play for Fun, and complete daily clan missions. A player is nothing without a clan. We are a Limited Edition.<br/> <br/> 
+			
+			<strong>Criterias for join our club:</strong><br/>
+			&emsp;&bull; Latest version of a game<br/>
+			&emsp;&bull; Tier: Diamond and above<br/>
+			&emsp;&bull; Change nickname to our clan name<br/>
+			&emsp;&bull; Players with 20 and above level<br/>
+			
+			<span style="text-decoration:underline">For more information please contanct:</span> Melikov Savlatjon <a href="https://www.facebook.com/profile.php?id=100008950811101" target="_blank" class="hoverable" style=" color: #0000FF"><i class="fa fa-facebook"></i>melikov</a><br/><br/> 
+			
+			<div style="border-top: 1px solid #ebebeb;">&nbsp;</div>
+			
+			<center><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fapuniversity%2Fposts%2F10157537937287566&show_text=true&width=552&height=849&appId" width="552" height="849" style="border:none;overflow:hidden" scrolling="no" frameborder="0" ></iframe></center>
+			
+			<marquee behavior='scroll' direction="left" scrollamount="10" >Join our PUBG club, play, win chicken dinners and enjoy! Thank you for visiting our website <i class="fa fa-heart" style="color:#FF3300"></i></marquee>
+		
+		</div>
+	</div>
+	<div id="footer">
+	Created by Melikov Savlatjon, 2020<br />
+	FDD-1911
+	</div>
+</div>
+
+</body>
+
+</html>
