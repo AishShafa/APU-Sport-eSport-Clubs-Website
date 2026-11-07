@@ -1,48 +1,116 @@
-//Created in 2022 //
+# APU Sport & eSport Clubs Website
 
-The website will generally update certain live news, such as training times and competition times, so that members may access the most up-to-date information via this website. 
-Members and other students who are interested in basketball may also receive some professional training information from this website, which will publish and update certain basketball training skills. 
-If students are interested in joining the APU Basketball Club, they should keep an eye on the website, which will also post news about recruiting new team members, after which students may come to trial training and selection. 
-This website also includes the contact information for the major executives, in case students or members have any issues.
+A professional static website designed for the APU Sport and eSports clubs, providing students and members with access to club information, training schedules, upcoming events, and recruitment updates.
 
-Summary of the main sections of the website --
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6c8e170c-743b-46a4-b0bb-29f694afcce6" alt="APU Sports Club Homepage" width="820" height="460" />
+</p>
 
-The Website -
-The basketball club's website is divided into four major sections, each with four websites offering comparable services. 
-The divisions are designed to give an easier guideline for website developers to divide down information into more manageable/maintainable portions, as well as to minimise the production of crowded content, which may drive away readers. Sectioning websites is also done to reduce the amount of navigation skills required by visitors to use the website. 
-The four main sections are "Home," "About Us," "Timetable," and "Event."
+## Overview
 
-Home
-The home area is the first thing that most, if not all, users will see. 
-The main web page of this section ("homepage.html") serves mostly as a directing page for visitors exploring other portions of the website. 
-This section also includes the most recent club news and news about the club sponsors. 
+This project presents an information portal for APU students interested in sports and esports activities. The website delivers up-to-date club news, event announcements, training details, facility information, and contact information in a simple and user-friendly structure.
 
-EVENT
-This section comprises everything regarding the club’s events and competitions, such as competition schedule, competition results, and the documentation of the events. 
-Should users miss any event or wish to know anything regarding upcoming competitions, they can navigate to this section.
+The platform is designed to help members stay informed about:
 
+- Training schedules and court availability
+- Upcoming competitions and club activities
+- Club information and sport categories
+- Internal and external club news
+- Facility highlights and coach details
+- Recruitment opportunities and contact channels
 
+## Key Features
 
-Club Schedules
-This page in general consists of the timetable showing the allocated available timing for the basketball court in Asia Pacific University. 
-It also shows the basketball coaches information such as their profile image, names and phone number. 
-The website page also consists of pictures of the basketball court in Asia Pacific University so that viewers will get an idea of what the court exactly looks like. 
+- Responsive and accessible multi-page front-end layout
+- Organized sections for sports and esports clubs
+- Event and competition information pages
+- Facility and schedule overview
+- Club contact and information pages
+- Visual media and promotional images for each club category
+- Static content architecture suitable for lightweight deployment
 
+## Technologies Used
 
+This project is built as a static front-end website using the following technologies:
 
-Below are some sample screenshots of the website --
+- HTML5 for page structure and content
+- CSS3 for layout, styling, and visual consistency
+- Native browser rendering without framework dependencies
+- Font Awesome icons for interface enhancement
+- Image assets and media files for promotions and club visuals
 
-![image](https://github.com/user-attachments/assets/6c8e170c-743b-46a4-b0bb-29f694afcce6)
+## Project Structure
 
+```text
+APU Sport & eSport Clubs (Website)/
+├── APU Sport & eSport Clubs (Website)/
+│   ├── html/
+│   │   ├── aboutus.html
+│   │   ├── basketball.html
+│   │   ├── contactus.html
+│   │   ├── default.html
+│   │   ├── events.html
+│   │   ├── master.html
+│   │   ├── master.css
+│   │   ├── sportclubs.html
+│   │   ├── esportclubs.html
+│   │   └── ...
+│   └── others/
+│       ├── images and media assets
+│       ├── CSS files
+│       └── supporting HTML pages
+├── README.md
+└── .gitattributes
+```
 
-![image](https://github.com/user-attachments/assets/5dc36af8-6618-42fc-a645-4cb9bbbf781d)
+## Website Sections
 
+### Home
+The homepage acts as the main landing page and introduces visitors to the club ecosystem, current highlights, and sponsor-related information.
 
-![image](https://github.com/user-attachments/assets/81caefe9-2618-4204-82da-8da0810f03ce)
+### About Us
+This page outlines the purpose, identity, and background of the APU sports and esports clubs.
 
+### Events
+Users can browse upcoming competitions, club events, and relevant activity information.
 
+### Timetable / Schedule
+This section contains court schedules, session timing, and coach details for club members and interested students.
 
+### Clubs and Facilities
+Dedicated pages cover various sports and esports categories, including training information, club features, and facility descriptions.
 
+## Getting Started
 
+Because this is a static website, no installation or package manager is required.
 
+### Run locally
 
+1. Clone the repository.
+2. Open the project folder.
+3. Navigate to the `html` folder.
+4. Open `default.html` or `master.html` in your browser.
+
+You may also open the individual HTML pages directly to view different sections of the website.
+
+## Screenshots
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6c8e170c-743b-46a4-b0bb-29f694afcce6" alt="Website Screenshot 1" width="820" height="460" />
+  <br /><br />
+  <img src="https://github.com/user-attachments/assets/5dc36af8-6618-42fc-a645-4cb9bbbf781d" alt="Website Screenshot 2" width="820" height="460" />
+  <br /><br />
+  <img src="https://github.com/user-attachments/assets/81caefe9-2618-4204-82da-8da0810f03ce" alt="Website Screenshot 3" width="820" height="460" />
+</div>
+
+## Project Status
+
+This repository is a static informational website and is suitable as a front-end showcase for APU sports and esports club promotion and communication.
+
+## License
+
+This project is intended for educational and portfolio use. Please check with the repository owner before reusing it for commercial purposes.
+
+## Contact
+
+For questions or collaboration inquiries, please refer to the contact information available within the website or reach out through the repository owner.
